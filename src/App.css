@@ -1,0 +1,80 @@
+.mono-text {
+  font-family: "Overpass Mono", monospace;
+}
+
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 24px;
+  background-color: #f0f0f0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .hero-section {
+    background-color: #171717;
+  }
+}
+
+.hero-text {
+  text-align: center;
+}
+
+.mobile-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.desktop-text {
+  display: none;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 32px;
+}
+
+.about-content {
+  max-width: 28rem;
+  width: 100%;
+  text-align: left;
+}
+
+.about-title {
+  margin-bottom: 16px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.about-description {
+  margin: 16px 0;
+}
+
+@media (min-width: 768px) {
+  .landing-container {
+    flex-direction: row;
+  }
+  .mobile-text {
+    display: none;
+  }
+
+  .desktop-text {
+    display: block;
+  }
+
+  .about-title {
+    font-size: 2.5rem;
+  }
+}
