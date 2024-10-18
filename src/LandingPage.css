@@ -1,0 +1,117 @@
+.landing-container {
+  font-family: "Gilroy", sans-serif; /* Default font for the body */
+}
+
+.mono-text {
+  font-family: "Overpass Mono", monospace; /* For monospace text */
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Full height */
+  overflow: hidden; /* Prevent scrolling */
+}
+
+/* Base container */
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh; /* Equivalent to min-h-screen */
+  overflow: hidden; /* Prevent scrolling */
+}
+
+@media (min-width: 768px) {
+  .landing-container {
+    flex-direction: row;
+  }
+}
+
+/* Half containers */
+.half-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 2rem; /* Equivalent to p-6 */
+}
+
+@media (min-width: 768px) {
+  .half-container {
+    width: 50%;
+    padding: 0; /* Equivalent to md:p-0 */
+  }
+}
+
+.dark-bg {
+  background-color: #f5f5f5; /* Equivalent to bg-gray-100 */
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark-bg {
+    background-color: #171717; /* Equivalent to dark:bg-[#171717] */
+  }
+}
+
+/* Title and Text Containers */
+.title-container {
+  font-size: 2.5rem; /* Equivalent to text-4xl */
+  font-weight: bold;
+  text-align: center;
+  color: #333; /* Equivalent to text-gray-800 */
+  line-height: 1.2; /* Replicating line height for the title */
+
+  /* Equivalent to text-white for dark mode */
+  @media (prefers-color-scheme: dark) {
+    color: white;
+  }
+}
+
+@media (min-width: 768px) {
+  .title-container {
+    font-size: 4rem; /* Equivalent to md:text-6xl */
+    white-space: nowrap;
+    text-align: left; /* Equivalent to md:text-left */
+  }
+}
+
+.mobile-title {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .mobile-title {
+    display: none;
+  }
+}
+
+.desktop-title {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .desktop-title {
+    display: block;
+  }
+}
+
+/* Content Text */
+.content-container {
+  max-width: 28rem; /* Equivalent to max-w-md */
+  text-align: left;
+  line-height: 1.8; /* Equivalent to leading-relaxed */
+}
+
+.heading {
+  margin-bottom: 1rem; /* Equivalent to mb-4 */
+  font-size: 2rem; /* Equivalent to text-3xl */
+  font-weight: bold;
+  line-height: 1.3; /* For better readability */
+}
+
+.paragraph {
+  margin: 1rem 0; /* Equivalent to my-4 */
+  line-height: 1.8; /* Similar to leading-relaxed */
+}
