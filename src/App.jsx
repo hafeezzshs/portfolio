@@ -17,18 +17,18 @@ export default function LandingPage() {
         <div className="about-content">
           <h2 className="about-title">About me</h2>
           <p>
-            I&apos;m <strong>Hafeezz</strong> <em>a.k.a.</em> <strong>Hassain Saheb</strong>,
-            <br /> a passionate full-stack web developer driven by the love for creating seamless
-            digital experiences. With almost <strong>1.5 years</strong> of hands-on experience, I
-            focus on building modern, efficient, and user-friendly web applications using
-            cutting-edge technologies.
+            I&apos;m Hafeezz <em>a.k.a.</em> Hassain Saheb,
+            <br /> a budding <strong>frontend developer</strong> who recently started my journey
+            into web development, focusing on creating dynamic and engaging applications with{" "}
+            <strong>React</strong> and <strong>Vite</strong>. <br />
+            With <strong>1.5 years</strong> of experience in other areas, I'm excited to apply my
+            skills to build user-friendly web applications.
           </p>
           <p className="about-description">
-            I continually hone my skills to deliver <strong>high-quality</strong> solutions. My
-            expertise includes <strong>React</strong>, <strong>Next.js</strong>,{" "}
-            <strong>Tailwind</strong>, <strong>Node.js</strong>, <strong>Angular</strong>, and{" "}
-            <strong>Mongodb</strong>. I thrive in collaborative environments, enjoying the
-            opportunity to learn from others while also sharing my knowledge and experiences.
+            I am committed to continuous learning and eager to embrace the latest frontend
+            technologies that enhance user experiences. As I delve deeper into this field, I look
+            forward to collaborating with others, sharing knowledge, and contributing to innovative
+            projects that push the boundaries of what's possible on the web.
           </p>
         </div>
       </div>
