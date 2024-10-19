@@ -6,7 +6,7 @@ export default function LandingPage() {
     <div className="landing-container">
       <div className="hero-section">
         <div className="hero-text">
-          <span className="mobile-text">web. dev.</span>
+          <span className="mobile-text">web.dev</span>
           <span className="desktop-text">
             web. <br />
             dev.
