@@ -1,7 +1,3 @@
-.mono-text {
-  font-family: "Overpass Mono", monospace;
-}
-
 .landing-container {
   display: flex;
   flex-direction: column;
