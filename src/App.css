@@ -50,7 +50,6 @@
   max-width: 28rem;
   width: 100%;
   text-align: left;
-  line-height: 1.6;
 }
 
 .about-title {
@@ -73,6 +72,7 @@
 
   .desktop-text {
     display: block;
+    line-height: 1.2;
   }
 
   .about-title {

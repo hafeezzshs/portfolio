@@ -22,9 +22,5 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: "Ubuntu", sans-serif;
+  line-height: 1.6;
 }
-
-.text-balance {
-  text-wrap: balance;
-}
-
