@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
+import Sun from "./components/Sun";
+import Moon from "./components/Moon";
 
 export default function LandingPage() {
   const storedTheme = localStorage.getItem("theme");
@@ -19,7 +21,7 @@ export default function LandingPage() {
   return (
     <>
       <button className="theme-toggle-btn" onClick={toggleTheme}>
-        {theme === "light" ? "Dark Mode" : "Light Mode"}
+        {theme === "light" ? <Moon /> : <Sun />}
       </button>
       <div className="landing-container">
         <div className="hero-section">
