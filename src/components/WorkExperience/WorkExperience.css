@@ -1,0 +1,139 @@
+.work-experience {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+
+@media (min-width: 768px) {
+  .work-experience {
+    flex-direction: row;
+  }
+}
+
+.content-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 2;
+  width: 100%;
+  padding: 32px;
+}
+
+@media (min-width: 768px) {
+  .content-section {
+    order: 1;
+    width: 50%;
+  }
+}
+
+.content-wrapper {
+  max-width: 400px;
+}
+
+.section-heading {
+  margin-bottom: 32px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.experience-overall {
+  margin-bottom: 24px;
+}
+
+.experience-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.experience-overall .experience-item {
+  flex-direction: row;
+  align-items: center;
+}
+
+.experience-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.experience-list {
+  margin-top: 24px;
+  padding-left: 24px;
+  position: relative;
+}
+
+.experience-list::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  bottom: 8px;
+  width: 2px;
+  background-color: #d1d5db;
+}
+
+@media (prefers-color-scheme: dark) {
+  .experience-list::before {
+    background-color: #4b5563;
+  }
+}
+
+.job-title {
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.experience-dates {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.experience-company {
+  margin-top: 24px;
+}
+
+.experience-company .experience-item {
+  flex-direction: row;
+  align-items: center;
+}
+
+.company-link {
+  font-weight: bold;
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.company-link:hover {
+  text-decoration: underline;
+}
+
+.visual-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 2;
+  width: 100%;
+  padding: 24px;
+  background-color: #f3f4f6;
+}
+
+[data-theme="dark"] {
+  .visual-section {
+    background-color: #171717;
+  }
+}
+
+@media (min-width: 768px) {
+  .visual-section {
+    width: 50%;
+  }
+}
+
+.visual-text {
+  font-size: 72px;
+  font-weight: bold;
+}
