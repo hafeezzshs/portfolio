@@ -70,3 +70,22 @@
     line-height: 1.2;
   }
 }
+
+.theme-toggle-btn {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--foreground);
+  color: var(--background);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  z-index: 1000;
+}
+
+.theme-toggle-btn:hover {
+  opacity: 0.8;
+}
