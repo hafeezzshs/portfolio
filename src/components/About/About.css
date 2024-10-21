@@ -15,11 +15,10 @@
 }
 
 [data-theme="dark"] {
-  .about-section__left{
+  .about-section__left {
     background-color: #171717;
   }
 }
-
 
 .about-section__right {
   display: flex;
